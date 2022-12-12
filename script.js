@@ -11,14 +11,6 @@ button_sysinfo.onclick = function bnm_click(){
     textarea.value = systeminfo;
 }
 
-// const button_microphone = document.createElement('button');
-// button_microphone.classList.add('endybut');
-// button_microphone.textContent = 'Микрофон';
-// button_microphone.id = 'microphone';
-// button_microphone.onclick = function bnm_click(){
-//     textarea.value = microphone;
-// }
-
 
 function addbutton(btn_name,id,context,top){
     const btn = document.createElement('button');
