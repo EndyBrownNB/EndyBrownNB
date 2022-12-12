@@ -1,0 +1,26 @@
+.endybut  {
+    position: fixed;
+    top: 20px;
+    left: 1000px;
+    width: 70px;
+    height: 20px;
+    z-index: 1000000;
+    font-size: 12px;
+    background-color:lightskyblue;
+    border-color:rgb(89, 201, 235);
+    border-radius: 5px;
+    border-width: 1px;
+    opacity: 50%;
+    vertical-align: middle;
+    padding:0px;
+}
+#microphone  {
+    top: 42px;
+}
+#clear {
+    top: 42px;
+}
+
+.hide{
+    display: none;
+}
