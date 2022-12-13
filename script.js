@@ -1,6 +1,6 @@
 //везде добавить префикс endy
-const texts = require('./texts.js')
-const microphone = texts.microphone
+const texts = require('./texts');
+const microphone = texts.microphone;
 const textarea = document.getElementById("placeforansweragenttouser");
 
 const button_sysinfo = document.createElement('button');
@@ -30,7 +30,6 @@ const systeminfo = `Добрый день!
 Для диагностики проблемы пришлите, пожалуйста, Systeminfo.
 Для того, чтобы получить данный комплект логов Вам необходимо запустить утилиту SystemInfo.exe, находящуюся в 'C:\/Program Files (x86)\/ISS\/SecurOS\/tools'.
 Снимите все галочки и нажмите "Пуск". В той же папке появится архив, который необходимо нам направить.`
-
 
 
 const clear = ``

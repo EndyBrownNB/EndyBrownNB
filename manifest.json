@@ -5,7 +5,7 @@
     "content_scripts":[
         {
             "matches" : ["https://help.iss.ru/support/ru/agent/ticket/*"],
-            "js" : ["script.js"],
+            "js" : ["script.js","texts.js"],
             "css": ["style.css"]
         }
     ],
