@@ -1,6 +1,6 @@
-//<textarea id="placeforansweragenttouser" class="form-control font_iss_small " 
-//rows="5" placeholder="Напишите текст ответа"></textarea>
 //везде добавить префикс endy
+const texts = require('./texts.js')
+const microphone = texts.microphone
 const textarea = document.getElementById("placeforansweragenttouser");
 
 const button_sysinfo = document.createElement('button');
@@ -23,10 +23,7 @@ function addbutton(btn_name,id,context,top){
     }
     document.body.append(btn);
 }
-//textarea.placeholder = 'Отвечай живее!'
-//textarea.value = 'Ответ';
-
-
+textarea.placeholder = 'Отвечай живее!'
 
 //контекст
 const systeminfo = `Добрый день!
@@ -34,15 +31,7 @@ const systeminfo = `Добрый день!
 Для того, чтобы получить данный комплект логов Вам необходимо запустить утилиту SystemInfo.exe, находящуюся в 'C:\/Program Files (x86)\/ISS\/SecurOS\/tools'.
 Снимите все галочки и нажмите "Пуск". В той же папке появится архив, который необходимо нам направить.`
 
-const microphone = `1) Добавить устройство аудиозахвата.
-2) В настройках выбрать нужный тип и модель (если тип отсутствует, то можно завести через ONVIF или GenericRTSP)
-Более подробно это описано в руководстве администратора системы (C:\.Program Files (x86)\/ISS\/SecurOS\/Manuals\/SecurOS Administration Guide.pdf)
-в главе "Аудиоподсистема".
-3) Прописать IP, пользователя и пароль от сетевого устройства.
-4) Создать дочернее устройство "Микрофон".
-5) Зайти в настройки объекта "Камера" во вкладку Аудио и выбрать созданный микрофон.
-6) В настойках объекта "Компьютер" настроить диск для записи аудио.
-7) В настройках объекта "Медиа Клиент" во вкладке Аудио поставить галочку "Работать со звуком".`
+
 
 const clear = ``
 
@@ -52,4 +41,3 @@ addbutton('Очистить','сlear',clear,'64px');
 document.body.append(button_sysinfo);
 
 console.log ("Расширение Никиты работает!");
-
