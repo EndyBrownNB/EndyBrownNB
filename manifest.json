@@ -1,7 +1,7 @@
 {
     "manifest_version" : 3,
     "name" : "ISShelper",
-    "version": "1.0",
+    "version": "1.1",
     "content_scripts":[
         {
             "matches" : ["https://help.iss.ru/support/ru/agent/ticket/*"],
