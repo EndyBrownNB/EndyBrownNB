@@ -1,8 +1,15 @@
 - 👋 Hi, I’m @EndyBrownNB
-- 👀 I’m interested in NodeJS Fullstack developing.
-- 🌱 I’m currently learning express.js, react.js, blockchain.
-- 💞️ I’m looking to collaborate on backend blockchain project.
-- 📫 Contact with me by email.
+- 👀 
+5 years IT experience. Starting as a technical support engineer, working with users and network tools (WhireShark,TCP/IP, VPN etc..).
+In recent years I have turned into a FullStack Web Developer.
+HTML/CSS(UI/UX), NodeJS(Express, React, Telegraf), SQL.
+I can help you with:
+- Web page (Landings, Content-Project, Blog, etc..)
+- Telegram-bot
+- Plugin for browser and other software
+- Open to some new IT-offers :)
+- 🌱 I’m currently learning angular.js, vue.js, nosql.
+- 📫 Contact with me by email: endybrowmisra@gmail.com
 
 <!---
 EndyBrownNB/EndyBrownNB is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
