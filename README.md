@@ -8,7 +8,7 @@ I can help you with:
 - Telegram-bot
 - Plugin for browser and other software
 - Open to some new IT-offers :)
-- 🌱 I’m currently learning angular.js, vue.js, nosql.
+- 🌱 I’m currently learning AI/ML
 - 📫 Contact with me by email: endybrowmisra@gmail.com
 
 <!---
