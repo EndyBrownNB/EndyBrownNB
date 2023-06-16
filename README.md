@@ -7,7 +7,7 @@ I can help you with:
 - Telegram-bot
 - Plugin for browser and other software
 - Open to some new IT-offers :)
-- 📫 Contact with me by email: endybrowmisra@gmail.com
+- 📫 Contact with me by email: endybrownisra@gmail.com
 
 <!---
 EndyBrownNB/EndyBrownNB is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
